@@ -1,0 +1,7 @@
+version: '3'
+services:
+  openalpr:
+    container_name: openalpr
+    build:
+      context: .
+      dockerfile: Dockerfile
